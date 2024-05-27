@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Creepster', serif;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo {
+    margin-left: 20px;
+    width: 80px; /* Ancho del logo */
+    height: 80px; /* Altura del logo */
+}
+
+.button-container {
+    margin-right: 20px;
+}
+button{
+    background-color: brown;
+    font-family: 'Creepster', serif;
+    font-size: x-large;
+}
+.container {
+    display: flex;
+}
+
+.half {
+    width: 50%;
+    padding: 20px;
+}
+
+.half img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container {
+    text-align: center;
+}
+.image-container img {
+    max-width: 50%;
+    height: 50%;
+}
+
+.image-container p {
+    margin-top: 10px;
+    color: white;
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.table-cell {
+    width: 30%; /* Ajusta el ancho de las celdas de la tabla según sea necesario */
+    text-align: center;
+    margin: 5px;
+}

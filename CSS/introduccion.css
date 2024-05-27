@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Creepster', serif;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo {
+    margin-left: 20px;
+    width: 80px; /* Ancho del logo */
+    height: 80px; /* Altura del logo */
+}
+
+.button-container {
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Altura del área de contenido (80% del viewport) */
+}
+.container img {
+    max-width: 50%;
+    height: 80%;
+}
+button{
+    background-color: brown;
+    font-family: 'Creepster', serif;
+    font-size: x-large;
+}

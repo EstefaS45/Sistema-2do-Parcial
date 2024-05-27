@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: black;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+    width: 80px; /* Ancho del logo */
+    height: 80px; /* Altura del logo */
+}
+.container {
+    display: flex;
+}
+
+.half {
+    width: 50%;
+    padding: 20px;
+}
+
+.half img {
+    max-width: 100%;
+    height: auto;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.button-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: x-large;
+    font-family: 'Creepster', serif;
+    background-color: brown;
+} 
